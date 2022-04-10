@@ -1,11 +1,11 @@
 <template>
-  <!-- <Tutorial/> -->
   <div>
     <h1>{{ counter }}</h1>
     <button type="button" @click="clickBtn">ADD</button>
     <hr />
     <h1>{{ asyncCount }}</h1>
-    <nuxt-link to="/todos">TODO List</nuxt-link>
+    <div><nuxt-link to="/todos">TODO List</nuxt-link></div>
+    <div><a href="https://nuxtjs.org/docs/directory-structure/store/">Vuex Store directory</a></div>
   </div>
 </template>
 
